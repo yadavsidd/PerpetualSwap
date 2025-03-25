@@ -1,0 +1,15 @@
+[package]
+name = "PerpetualSwapContracts"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x5a4d26f5caa99f6ce427062c09bc1549bd670e61da647a4c08a7e277b2d69cd5"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
